@@ -21,7 +21,7 @@ export default function Login() {
 
         const { Name,Email,Phone,Remarks} = user;
 
-        const res = await fetch("https://firstfirebase-24839-default-rtdb.firebaseio.com/contactform.json",{
+         const res = await fetch("https://firstfirebase-24839-default-rtdb.firebaseio.com/contactform.json",{
             method: "POST",
             headers:{
                 "Content-Type": "application/json",
